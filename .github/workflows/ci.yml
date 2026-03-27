@@ -16,3 +16,7 @@ jobs:
 
     - name: Run training
       run: python train.py
+
+    - name: Register model
+      run: python register_model.py
+   
